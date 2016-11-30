@@ -1,5 +1,5 @@
-# Assignment-2 & Assignment-3
-Convert Your Website Into a Basic ReSTful WebService.
+# Assignment-4
+INTEGRATED EXTERNAL SERVICE.
 **Simple calculator API**
 ----
   Returns json data of simple calculator output.
@@ -46,8 +46,43 @@ Convert Your Website Into a Basic ReSTful WebService.
 
 * **Description:**
 
-     To perform arithmetic operation: url: http://54.244.41.255:5000/4/2/+ parameter : Enter the oparands value and the operator to perform the calculation  output : {"answer": "6"}
+     The html file is opened and the operands and operators are inputed into the respective text fields. When the submit button is pressed, the result of the corresponding operation is returned. 
+     
+**Currency Convertor API**
+----
+ Returns json data of USD to EURO currency converter output.
 
+* **URL**
+
+  /api
+
+* **Method:**
+
+  `GET`
+  
+* **Data Params**
+
+   **Required:**
+ 
+   `amount=[integer]`
+
+
+* **Success Response:**
+
+  * **amount = 6** <br />
+    **Code:** 200 <br />
+    **Content:** `{"converted": "5.629194"}`
+ 
+    **Error Response:**
+
+  * ***amount = ")"** <br />
+    **Code:** 404 NOT FOUND <br />
+    **Content:** `The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.`
+
+
+* **Description:**
+
+     The html file is opened and the amount of USD to be converted is inputed into the respective text field. When the "convert" button is pressed, the corresponding EURO value is returned. 
      
   ```
 

@@ -54,7 +54,7 @@ INTEGRATED EXTERNAL SERVICE.
 
 * **URL**
 
-  /api
+  /currencyConverter
 
 * **Method:**
 

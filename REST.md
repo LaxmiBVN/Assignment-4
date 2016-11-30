@@ -46,7 +46,7 @@ INTEGRATED EXTERNAL SERVICE.
 
 * **Description:**
 
-     The html file is opened and the operands and operators are inputed into the respective text fields. When the submit button is pressed, the result of the corresponding operation is returned. 
+     The URL 54.244.41.255:5000 is clicked and the operands and operators are inputed into the respective text fields. When the submit button is pressed, the result of the corresponding operation is returned. 
      
 **Currency Convertor API**
 ----
@@ -82,7 +82,7 @@ INTEGRATED EXTERNAL SERVICE.
 
 * **Description:**
 
-     The html file is opened and the amount of USD to be converted is inputed into the respective text field. When the "convert" button is pressed, the corresponding EURO value is returned. 
+     The URL 54.244.41.255:5000 and the amount of USD to be converted is inputed into the respective text field. When the "convert" button is pressed, the corresponding EURO value is returned. 
      
   ```
 
